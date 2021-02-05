@@ -6,15 +6,17 @@ The user can navigate to the required shortcut.
 
 Here is the implementation snippet code:
 
-Step 1: Add dependencies
+Step 1: Add dependencies -
 
-build.gradle (Project)
+build.gradle (Project):
+
 maven { url 'https://jitpack.io' }
 
-build.gradle (App)
+build.gradle (App):
+
 implementation 'com.github.fdcgit:LibraryShortCut:29fb546966'
 
-Step 2: Add below code in MainActivity.java Class
+Step 2: Add below code in MainActivity.java Class -
 
 ShortcutManager shortcutManager = getSystemService(ShortcutManager.class);
 
